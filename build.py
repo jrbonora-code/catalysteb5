@@ -505,7 +505,7 @@ def page_home():
     <a class="tool rv" href="/tea-map/">
       <div class="tim">{pic('flags', 'card', 'American flags on a row of flagpoles', 'card')}</div>
       <div class="tbody"><span class="eyebrow">Interactive Tool</span><h3>TEA Map</h3>
-        <p class="muted">Check whether a project site may qualify as a high-unemployment or rural targeted employment area, with live census tract data and adjacent-tract combinations.</p>
+        <p class="muted">Check whether a project site may qualify as a high-unemployment or rural targeted employment area, using the IIUSA interactive census tract map.</p>
         <span class="more">Open the map <span class="ar">&rarr;</span></span></div>
     </a>
     <a class="tool rv" href="/info-center/">
@@ -749,17 +749,14 @@ def page_about():
 
 
 def page_tea():
-    leaflet = ('\n<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">')
-    scripts = ('\n<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>'
-               '\n<script src="/assets/tea-map.js" defer></script>')
     rules = [("High Unemployment", "The project tract, alone or combined with any or all directly adjacent tracts, has a weighted average unemployment rate of at least 150% of the national average."),
              ("Rural", "Outside a metropolitan statistical area and outside the boundary of any city or town with a population of 20,000 or more, based on the most recent decennial census."),
              ("Infrastructure", "A qualifying infrastructure project receives the reduced investment amount regardless of location. This tool does not test infrastructure status.")]
     rcards = "".join(f'<div class="cap"><div class="k">{e(k)}</div><div class="d">{e(v)}</div></div>' for k, v in rules)
     return (head(f"EB-5 TEA Map | {SITE['name']}",
-                 "Check whether a project address may qualify as an EB-5 targeted employment area. Census tract "
-                 "unemployment, adjacent-tract weighted averages and a rural test, on one map.",
-                 "/tea-map/", og_image("flags"), extra=leaflet)
+                 "Check whether a project address may qualify as an EB-5 targeted employment area, with census tract "
+                 "unemployment and rural status on one interactive map.",
+                 "/tea-map/", og_image("flags"))
         + header("/tea-map/")
         + hero("EB-5 Tools", "TEA Map.",
                "Check whether a project site may qualify as a high-unemployment or rural targeted employment area.",
@@ -767,39 +764,11 @@ def page_tea():
         + f"""
 <div class="s1"></div>
 <section><div class="wide">
-  <div class="tea rv" id="tea">
-    <div class="tea-side">
-      <form class="tea-search" id="teaForm" autocomplete="off">
-        <label for="teaAddr" class="small-caps muted">Project address</label>
-        <div class="tea-in">
-          <input id="teaAddr" type="text" placeholder="e.g. 2000 Main St, Fort Myers, FL" required>
-          <button class="btn solid" type="submit">Check <span class="ar">&rarr;</span></button>
-        </div>
-        <p class="tea-hint">Or click anywhere on the map. Click shaded neighbors to add or remove them from the combination.</p>
-      </form>
-      <div id="teaOut" class="tea-out" aria-live="polite">
-        <div class="tea-empty">
-          <h4>How it works</h4>
-          <ol>
-            <li>Enter an address or click the map.</li>
-            <li>We find the census tract and every directly adjacent tract.</li>
-            <li>We compare each tract, and the best combination, to 150% of the national unemployment rate.</li>
-            <li>We test the rural definition using metro area boundaries and 2020 Census city populations.</li>
-          </ol>
-        </div>
-      </div>
-    </div>
-    <div class="tea-map-wrap">
-      <div id="teaMap" class="tea-map" role="application" aria-label="TEA map"></div>
-      <div class="tea-legend">
-        <span><i class="lg q"></i>Qualifies alone</span>
-        <span><i class="lg s"></i>In combination</span>
-        <span><i class="lg n"></i>Adjacent, not selected</span>
-        <span><i class="lg p"></i>Project tract</span>
-      </div>
-    </div>
+  <div class="rv" style="border:1px solid var(--line);background:#fff">
+    <iframe src="https://eb5-unemployment-area.themapsolutely.com/" title="IIUSA EB-5 TEA Map"
+      style="display:block;width:100%;height:min(860px,85vh);min-height:560px;border:0" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
   </div>
-  <p class="tea-note rv">Indicative only. Under the EB-5 Reform and Integrity Act of 2022, USCIS determines TEA status at the I-956F or I-526E stage. Unemployment data are American Community Survey 5-year estimates; boundaries and city populations are from the U.S. Census Bureau TIGERweb service. Use a professional TEA report for any filing.</p>
+  <p class="tea-note rv">Map provided by <a href="https://iiusa.org/resources-data/targeted-employment-areas/" target="_blank" rel="noopener">IIUSA</a>, the EB-5 industry trade association. Not loading? <a href="https://eb5-unemployment-area.themapsolutely.com/" target="_blank" rel="noopener">Open the map in a new tab</a>. Indicative only. Under the EB-5 Reform and Integrity Act of 2022, USCIS determines TEA status at the I-956F or I-526E stage. Use a professional TEA report for any filing.</p>
 </div></section>
 
 <div class="s2"></div>
@@ -824,7 +793,7 @@ def page_tea():
 </div></div></section>
 
 <div class="s2"></div>
-{pre_footer()}""" + footer(scripts))
+{pre_footer()}""" + footer())
 
 
 def page_info():
