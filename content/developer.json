@@ -1,0 +1,14 @@
+{
+  "intro": "Our affiliate, Catalyst Community Development, builds large-scale multifamily, mixed-use and special-use projects across Southwest Florida and Tampa Bay. We know how budgets, schedules and change orders behave because we manage them ourselves.",
+  "projects": [
+    {"name": "Montage at Midtown", "program": "321 apartments", "cost": "$100M", "url": "https://www.catalystcd.com/work/montage-at-midtown/"},
+    {"name": "West End at City Walk", "program": "318 apartments", "cost": "$66M", "url": "https://www.catalystcd.com/work/west-end-at-city-walk/"},
+    {"name": "Uptown at Liberty Park", "program": "320 apartments", "cost": "$47M", "url": "https://www.catalystcd.com/work/uptown-at-liberty-park/"},
+    {"name": "Atrium at Liberty Park", "program": "131 seniors units", "cost": "$27M", "url": "https://www.catalystcd.com/work/atrium-at-liberty-park/"}
+  ],
+  "stats": [
+    {"value": "$365M+", "label": "Projects Completed"},
+    {"value": "1,881", "label": "Housing Units Developed"},
+    {"value": "$400M+", "label": "Pipeline in Planning and Development"}
+  ]
+}

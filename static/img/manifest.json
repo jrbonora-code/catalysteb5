@@ -1,0 +1,326 @@
+{
+ "liberty": {
+  "hero": {
+   "widths": [
+    800,
+    1400,
+    2200
+   ],
+   "fallback": 2200,
+   "source": "pexels-niccolo-chiamori-37401699-16153075.jpg"
+  },
+  "card": {
+   "widths": [
+    400,
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-niccolo-chiamori-37401699-16153075.jpg"
+  }
+ },
+ "flags": {
+  "hero": {
+   "widths": [
+    800,
+    1400,
+    2200
+   ],
+   "fallback": 2200,
+   "source": "pexels-thuanvo09-8175116.jpg"
+  },
+  "card": {
+   "widths": [
+    400,
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-thuanvo09-8175116.jpg"
+  }
+ },
+ "cranes": {
+  "hero": {
+   "widths": [
+    800,
+    1400,
+    2200
+   ],
+   "fallback": 2200,
+   "source": "pexels-aimee-14619056-6309085.jpg"
+  },
+  "card": {
+   "widths": [
+    400,
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-aimee-14619056-6309085.jpg"
+  }
+ },
+ "earthwork": {
+  "hero": {
+   "widths": [
+    800,
+    1400,
+    2200
+   ],
+   "fallback": 2200,
+   "source": "pexels-robertkso-14484352.jpg"
+  },
+  "card": {
+   "widths": [
+    400,
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-robertkso-14484352.jpg"
+  }
+ },
+ "draw-review": {
+  "hero": {
+   "widths": [
+    800,
+    1400,
+    2200
+   ],
+   "fallback": 2200,
+   "source": "pexels-rdne-7821541.jpg"
+  },
+  "card": {
+   "widths": [
+    400,
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-rdne-7821541.jpg"
+  }
+ },
+ "documents": {
+  "hero": {
+   "widths": [
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-karola-g-7681200.jpg"
+  },
+  "card": {
+   "widths": [
+    400,
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-karola-g-7681200.jpg"
+  }
+ },
+ "family": {
+  "card": {
+   "widths": [
+    400,
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-shotpot-7705708.jpg"
+  }
+ },
+ "main-street": {
+  "hero": {
+   "widths": [
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-drew-anderson-1821361-6322070.jpg"
+  },
+  "card": {
+   "widths": [
+    400,
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-drew-anderson-1821361-6322070.jpg"
+  }
+ },
+ "capitol-day": {
+  "hero": {
+   "widths": [
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-ben-kelsey-2155337245-38466093.jpg"
+  },
+  "card": {
+   "widths": [
+    400,
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-ben-kelsey-2155337245-38466093.jpg"
+  }
+ },
+ "capitol-night": {
+  "hero": {
+   "widths": [
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-jayson-gomes-1455414-4705378.jpg"
+  },
+  "card": {
+   "widths": [
+    400,
+    800,
+    1400
+   ],
+   "fallback": 1400,
+   "source": "pexels-jayson-gomes-1455414-4705378.jpg"
+  }
+ },
+ "loans": {
+  "boutique-hotel-richland": {
+   "widths": [
+    290
+   ],
+   "fallback": 290,
+   "source": "deck/boutique-hotel-richland.jpg"
+  },
+  "envision-cinema": {
+   "widths": [
+    376
+   ],
+   "fallback": 376,
+   "source": "deck/envision-cinema.jpg"
+  },
+  "fairfield-inn-philadelphia": {
+   "widths": [
+    384
+   ],
+   "fallback": 384,
+   "source": "deck/fairfield-inn-philadelphia.jpg"
+  },
+  "fairfield-inn-wesley-chapel": {
+   "widths": [
+    381
+   ],
+   "fallback": 381,
+   "source": "deck/fairfield-inn-wesley-chapel.jpg"
+  },
+  "hampton-inn-buena-park": {
+   "widths": [
+    392
+   ],
+   "fallback": 392,
+   "source": "deck/hampton-inn-buena-park.jpg"
+  },
+  "hyatt-place-santa-cruz": {
+   "widths": [
+    379
+   ],
+   "fallback": 379,
+   "source": "deck/hyatt-place-santa-cruz.jpg"
+  },
+  "hyatt-place-wesley-chapel": {
+   "widths": [
+    411
+   ],
+   "fallback": 411,
+   "source": "deck/hyatt-place-wesley-chapel.jpg"
+  },
+  "marriott-dual-brand-charlotte": {
+   "widths": [
+    358
+   ],
+   "fallback": 358,
+   "source": "deck/marriott-dual-brand-charlotte.jpg"
+  },
+  "marriott-tribute-st-petersburg": {
+   "widths": [
+    544
+   ],
+   "fallback": 544,
+   "source": "deck/marriott-tribute-st-petersburg.jpg"
+  },
+  "memory-care-phoenix": {
+   "widths": [
+    380
+   ],
+   "fallback": 380,
+   "source": "deck/memory-care-phoenix.jpg"
+  },
+  "mixed-use-west-palm-beach": {
+   "widths": [
+    552
+   ],
+   "fallback": 552,
+   "source": "deck/mixed-use-west-palm-beach.jpg"
+  },
+  "residence-inn-jacksonville": {
+   "widths": [
+    329
+   ],
+   "fallback": 329,
+   "source": "deck/residence-inn-jacksonville.jpg"
+  },
+  "rose-garden-alf": {
+   "widths": [
+    374
+   ],
+   "fallback": 374,
+   "source": "deck/rose-garden-alf.jpg"
+  },
+  "self-storage-houston": {
+   "widths": [
+    600
+   ],
+   "fallback": 600,
+   "source": "deck/self-storage-houston.jpg"
+  },
+  "staybridge-orlando": {
+   "widths": [
+    340
+   ],
+   "fallback": 340,
+   "source": "deck/staybridge-orlando.jpg"
+  },
+  "towneplace-indianapolis": {
+   "widths": [
+    562
+   ],
+   "fallback": 562,
+   "source": "deck/towneplace-indianapolis.jpg"
+  }
+ },
+ "team": {
+  "joseph-bonora": {
+   "widths": [
+    222
+   ],
+   "fallback": 222,
+   "source": "deck/joseph-bonora.jpg"
+  },
+  "justin-blackhall": {
+   "widths": [
+    222
+   ],
+   "fallback": 222,
+   "source": "deck/justin-blackhall.jpg"
+  },
+  "reid-jaeger": {
+   "widths": [
+    222
+   ],
+   "fallback": 222,
+   "source": "deck/reid-jaeger.jpg"
+  }
+ }
+}

@@ -1,0 +1,517 @@
+{
+  "categories": [
+    {"slug": "basics", "name": "Basics"},
+    {"slug": "structure", "name": "Regional Centers and Structure"},
+    {"slug": "funding", "name": "Investment and Funding"},
+    {"slug": "requirements", "name": "Requirements"},
+    {"slug": "timeline", "name": "Timeline and Process"},
+    {"slug": "construction", "name": "Construction and Deployment"},
+    {"slug": "risk", "name": "Risk and Compliance"},
+    {"slug": "updates", "name": "Program Updates"}
+  ],
+  "articles": [
+    {
+      "slug": "program-status-october-2026",
+      "visible": true,
+      "featured": true,
+      "category": "updates",
+      "title": "Where the Regional Center Program Stands in October 2026",
+      "summary": "The grandfathering date has passed, the program runs through September 30, 2027, and two cost changes arrive in the next 75 days.",
+      "date": "October 21, 2026",
+      "body": [
+        {"p": "Three dates now define the EB-5 Regional Center Program, and one of them is already behind us."},
+        {"h": "September 30, 2026: grandfathering cutoff"},
+        {"p": "The EB-5 Reform and Integrity Act of 2022 (RIA) protects regional center petitions filed on or before September 30, 2026. If the program lapses, USCIS may not deny or stop processing those petitions solely because the program expired. Petitions filed on or after October 1, 2026 do not carry that protection."},
+        {"h": "September 30, 2027: program authorization"},
+        {"p": "The Regional Center Program is authorized through September 30, 2027. As of this writing, Congress has not enacted an extension. Sponsors raising new capital should treat reauthorization as a live risk in offering timelines and investor disclosures."},
+        {"h": "Cost changes ahead"},
+        {"ul": [
+          "November 30, 2026: new USCIS filing fees take effect. The I-526E fee rises to $7,850 and the I-829 fee to $5,000. See the fee update article for the full schedule.",
+          "January 1, 2027: the minimum investment amounts adjust for inflation for petitions filed on or after that date. USCIS has not yet published the new figures."
+        ]},
+        {"h": "What this means for projects already raising"},
+        {"p": "For projects with capital in escrow or already deployed, the immediate work is documentation. Investors who filed before the cutoff will eventually need to show at I-829 that their capital reached the job-creating entity and was spent on the approved business plan. A clean, dated record of every draw is the asset that protects them, whatever happens in Congress."},
+        {"callout": "Dates and figures are current as of October 21, 2026. Confirm with EB-5 counsel before relying on them."}
+      ]
+    },
+    {
+      "slug": "uscis-fee-rule-november-2026",
+      "visible": true,
+      "category": "updates",
+      "title": "New USCIS EB-5 Filing Fees Take Effect November 30, 2026",
+      "summary": "The final fee rule roughly doubles the investor petition fee and more than doubles regional center and project application fees.",
+      "date": "October 21, 2026",
+      "body": [
+        {"p": "USCIS published its final EB-5 fee rule on September 30, 2026. The new fees apply to forms postmarked or filed on or after November 30, 2026."},
+        {"table": {"head": ["Form", "Purpose", "Fee from Nov. 30, 2026", "Current fee"], "rows": [
+          ["I-526", "Standalone investor petition", "$7,615", "$3,675"],
+          ["I-526E", "Regional center investor petition", "$7,850", "$3,675"],
+          ["I-829", "Petition to remove conditions", "$5,000", "$3,750"],
+          ["I-956", "Regional center designation", "$44,115", "$17,795"],
+          ["I-956F", "Project application", "$42,675", "$17,795"],
+          ["I-956G", "Regional center annual statement", "$2,165", "$3,035"],
+          ["I-956K", "Direct and third-party promoter registration", "$2,165", "$0"]
+        ]}},
+        {"p": "The I-526 and I-526E amounts include the EB-5 technology fee. The I-956G annual statement is one of the few forms that becomes cheaper."},
+        {"h": "Who feels it most"},
+        {"p": "Regional centers carry the largest increase in absolute terms. A new project application now costs more than $42,000, which raises the bar for projects that are marginal in size. For investors, the petition fee is small relative to the investment but adds to the cost of filing in a year when the investment minimum is also expected to rise."},
+        {"callout": "Fee figures are as published in the final rule. Check the USCIS fee schedule before filing."}
+      ]
+    },
+    {
+      "slug": "investment-amount-adjustment-2027",
+      "visible": true,
+      "category": "updates",
+      "title": "The January 1, 2027 Investment Amount Adjustment",
+      "summary": "RIA indexes the minimum investment to inflation every five years. The first adjustment applies to petitions filed on or after January 1, 2027.",
+      "date": "October 21, 2026",
+      "body": [
+        {"p": "RIA set the minimum investment at $1,050,000, or $800,000 for projects in a targeted employment area or for qualifying infrastructure projects. The statute adjusts both amounts every five years based on the Consumer Price Index, starting January 1, 2027."},
+        {"p": "USCIS has not published the adjusted amounts. Industry projections place the reduced amount near $900,000 and the standard amount in a range of roughly $1.2 million to $1.25 million. Treat those as estimates until USCIS announces final figures."},
+        {"h": "Planning considerations"},
+        {"ul": [
+          "The amount that applies is tied to when the petition is filed, so the timing of subscription and filing matters.",
+          "Offering documents with a fixed investment amount may need updating for investors who file after the adjustment.",
+          "Larger per-investor amounts change the number of investors needed to fill a raise of a given size, which affects job-creation coverage calculations."
+        ]}
+      ]
+    },
+    {
+      "slug": "what-is-the-eb5-program",
+      "visible": true,
+      "category": "basics",
+      "title": "What Is the EB-5 Immigrant Investor Program?",
+      "summary": "A U.S. visa category that trades a qualifying, at-risk investment in a job-creating business for permanent residence.",
+      "body": [
+        {"p": "Congress created the EB-5 program in 1990 to bring foreign capital into U.S. businesses and create jobs. A foreign national who invests the required amount in a new commercial enterprise, and whose investment creates at least 10 full-time jobs for U.S. workers, can obtain permanent residence for themselves, their spouse and their unmarried children under 21."},
+        {"h": "The core requirements"},
+        {"ul": [
+          "A minimum investment of $1,050,000, or $800,000 in a targeted employment area or qualifying infrastructure project (both subject to the January 1, 2027 inflation adjustment).",
+          "Capital that is lawfully sourced and placed at risk, with no guaranteed return.",
+          "At least 10 full-time positions created per investor, measured directly or, in the regional center program, through economic modeling.",
+          "Investment maintained for the required period and documented at the removal of conditions stage."
+        ]},
+        {"h": "Two stages of residence"},
+        {"p": "Approval of the investor’s petition leads to a two-year conditional green card. Before the conditions expire, the investor files Form I-829 showing the investment was made, sustained and created the required jobs. Approval of the I-829 converts the investor to permanent residence."},
+        {"p": "For a project sponsor, this two-stage structure is the reason construction records matter so much. The I-829 is decided on evidence of what actually happened to the money, often years after the subscription was signed."}
+      ]
+    },
+    {
+      "slug": "regional-center-vs-direct",
+      "visible": true,
+      "category": "basics",
+      "title": "Regional Center Program vs. Direct EB-5",
+      "summary": "The two paths differ in how jobs are counted, who manages the business, and how much documentation the project carries.",
+      "body": [
+        {"p": "A direct EB-5 investor invests in a business they typically help manage, and only that business’s own W-2 employees count toward the 10-job requirement. Direct investment suits an owner-operator building a single business."},
+        {"p": "A regional center investor invests through a new commercial enterprise sponsored by a USCIS-designated regional center. Jobs can be counted indirectly, using an economic model that estimates the employment generated by project spending. That is what makes large real estate projects, where most jobs come from construction and operations rather than the borrower’s payroll, workable for EB-5."},
+        {"table": {"head": ["", "Regional center", "Direct"], "rows": [
+          ["Jobs counted", "Direct, indirect and induced", "Direct W-2 employees only"],
+          ["Investor role", "Passive limited partner or member", "Usually active in management"],
+          ["Project approval", "Form I-956F filed by the regional center", "No separate project filing"],
+          ["Investor petition", "Form I-526E", "Form I-526"],
+          ["Typical use", "Real estate and larger projects", "Single operating businesses"]
+        ]}},
+        {"p": "Because indirect job counts are derived from expenditures, regional center projects depend on accurate, categorized spending records. That is the bridge between construction administration and immigration outcomes."}
+      ]
+    },
+    {
+      "slug": "family-benefits",
+      "visible": true,
+      "category": "basics",
+      "title": "Family Benefits of the EB-5 Visa",
+      "summary": "One qualifying investment can extend permanent residence to an investor’s spouse and unmarried children under 21.",
+      "image": "family",
+      "body": [
+        {"p": "An EB-5 investor’s spouse and unmarried children under 21 can be included as derivative beneficiaries. They receive conditional residence alongside the investor and are included in the removal of conditions process."},
+        {"p": "Permanent residents can live, work and study anywhere in the United States, typically pay domestic tuition at public universities, and can generally apply for citizenship after meeting the residence requirements."},
+        {"h": "Age-out risk"},
+        {"p": "Children who turn 21 during a long processing period can lose derivative status. The Child Status Protection Act and RIA provide some protection, and concurrent filing can help where a visa is available. The rules are technical, so families with children near 21 should get specific advice from immigration counsel early."},
+        {"p": "For sponsors, the family dimension is a reminder of what is at stake in a stalled project. A missed deployment record does not just affect one investor; it can affect an entire household’s status."}
+      ]
+    },
+    {
+      "slug": "nce-and-jce-explained",
+      "visible": true,
+      "category": "structure",
+      "title": "NCE and JCE: How EB-5 Capital Moves",
+      "summary": "Investor capital flows into a new commercial enterprise, which typically lends or invests it into the job-creating entity building the project.",
+      "body": [
+        {"p": "Most regional center offerings use a two-tier structure. Investors buy interests in a new commercial enterprise (NCE), usually a limited partnership or LLC formed for the offering. The NCE then deploys the pooled capital into a job-creating entity (JCE), the company that owns and builds the project."},
+        {"h": "Common deployment structures"},
+        {"ul": [
+          "Loan model: the NCE makes a senior, mezzanine or subordinate loan to the JCE.",
+          "Equity model: the NCE takes preferred or common equity in the JCE.",
+          "Pledge structures: the NCE’s interest is secured by a pledge of ownership interests in the borrower."
+        ]},
+        {"h": "Why the second hop matters"},
+        {"p": "USCIS looks through the NCE to the JCE. Investors must show that their capital actually reached the job-creating entity and was spent on the project described in the business plan. When the JCE is affiliated with the regional center or the NCE manager, conflict-of-interest concerns increase and RIA adds specific verification and reporting obligations."},
+        {"p": "Catalyst sits on the JCE side of that flow, reviewing every draw and verifying deployment, then reports to the fund administrator and regional center on behalf of the NCE or lender."}
+      ]
+    },
+    {
+      "slug": "role-of-the-fund-administrator",
+      "visible": true,
+      "category": "structure",
+      "title": "The Role of the Fund Administrator",
+      "summary": "RIA made third-party fund administration a central integrity control. Construction expertise is what lets that control work on a building project.",
+      "body": [
+        {"p": "RIA requires NCEs that do not provide investors with audited financial statements to keep EB-5 capital in separate accounts and to engage a third-party fund administrator. The administrator controls the release of funds and confirms that capital moves to the job-creating entity as the offering documents describe."},
+        {"h": "What fund administrators do well"},
+        {"ul": [
+          "Escrow and account control",
+          "Investor-level accounting and capital tracking",
+          "Release authorization against documented conditions",
+          "Reporting to investors and the regional center"
+        ]},
+        {"h": "Where construction support fits"},
+        {"p": "A construction draw is not a simple invoice. Deciding whether to release funds requires testing the request against the budget by line item, confirming work in place, reconciling lien waivers and checking title. Most fund administrators do not keep that expertise on staff, and building it for each project is expensive."},
+        {"p": "Catalyst provides that layer. The fund administrator keeps release authority. Catalyst delivers a reviewed, inspected and reconciled funding package with a recommendation, so each release is defensible and documented."}
+      ]
+    },
+    {
+      "slug": "regional-center-obligations",
+      "visible": true,
+      "category": "structure",
+      "title": "Regional Center Filings and Ongoing Obligations",
+      "summary": "Designation, project applications, annual statements and periodic audits: the compliance calendar a regional center now carries.",
+      "body": [
+        {"p": "RIA rebuilt the regional center program around more frequent reporting and direct USCIS oversight. The core filings are:"},
+        {"table": {"head": ["Form", "What it does"], "rows": [
+          ["I-956", "Application for regional center designation"],
+          ["I-956F", "Application for approval of each investment in a commercial enterprise (the project)"],
+          ["I-956G", "Annual statement covering each regional center and its sponsored projects"],
+          ["I-956H", "Bona fides of persons involved with the regional center"],
+          ["I-956K", "Registration of direct and third-party promoters"]
+        ]}},
+        {"h": "Other obligations"},
+        {"ul": [
+          "Annual contributions to the EB-5 Integrity Fund, plus a per-investor fee at petition filing.",
+          "USCIS audits of each regional center at least once every five years.",
+          "USCIS site visits to projects.",
+          "Amendments when material project facts change."
+        ]},
+        {"p": "Each of these depends on accurate project-level information. A third-party construction servicer that maintains a dated, organized project file makes annual statements and audits far easier to support."}
+      ]
+    },
+    {
+      "slug": "how-much-is-the-investment",
+      "visible": true,
+      "category": "funding",
+      "title": "How Much Is the EB-5 Investment?",
+      "summary": "$1,050,000 or $800,000 today, with an inflation adjustment for petitions filed on or after January 1, 2027.",
+      "body": [
+        {"p": "The minimum investment is $1,050,000. It drops to $800,000 if the project is in a targeted employment area (a qualifying rural or high-unemployment area) or is a qualifying infrastructure project."},
+        {"p": "These amounts adjust for inflation every five years under RIA, starting January 1, 2027. The adjusted amounts have not yet been published by USCIS."},
+        {"h": "Costs beyond the investment"},
+        {"ul": [
+          "Offering or administrative fees charged by the regional center or NCE",
+          "USCIS filing fees for the I-526E and I-829",
+          "Immigration counsel and source-of-funds documentation",
+          "Consular or adjustment of status costs"
+        ]},
+        {"p": "Use the TEA Map to check whether a project location may qualify for the reduced amount."}
+      ]
+    },
+    {
+      "slug": "source-and-path-of-funds",
+      "visible": true,
+      "category": "funding",
+      "title": "Source of Funds and Path of Funds",
+      "summary": "Investors must show that their capital was lawfully earned and trace how it traveled to the NCE.",
+      "body": [
+        {"p": "Source of funds is where the money came from: salary, business profits, sale of property, a gift or a loan. Path of funds is how it moved from that origin to the NCE’s account, including every transfer and currency exchange along the way."},
+        {"h": "Gifts and loans"},
+        {"p": "Investors can use gifted funds if the donor’s lawful source is documented. Loan proceeds can count when the loan is secured by the investor’s own assets rather than the assets of the NCE or project. Each path carries its own documentation burden."},
+        {"h": "Why sponsors care"},
+        {"p": "Source of funds is the investor’s burden, but the same discipline continues after the money lands. USCIS will later ask where the capital went from the NCE. Path of funds ends at the escrow account; deployment evidence picks up the trail from there."}
+      ]
+    },
+    {
+      "slug": "at-risk-and-sustainment",
+      "visible": true,
+      "category": "funding",
+      "title": "At-Risk Capital, Sustainment and Redeployment",
+      "summary": "EB-5 capital must be genuinely exposed to loss, kept invested for the required period, and redeployed carefully if repaid early.",
+      "body": [
+        {"p": "EB-5 capital must be at risk. Guaranteed returns, guaranteed buybacks and arrangements that insulate the investor from loss are not allowed. The investor is buying into a real business with real risk."},
+        {"h": "Sustainment"},
+        {"p": "RIA requires investors to maintain their investment for a minimum period, measured from when the capital is invested. Investors must show at I-829 that the investment was sustained."},
+        {"h": "Redeployment"},
+        {"p": "Real estate loans are often repaid before every investor’s sustainment period has run. RIA allows the NCE to redeploy repaid capital into another qualifying commercial activity under specified conditions and timelines. Redeployment needs its own diligence, documentation and, where the original loan was a construction loan, the same draw discipline as the first deployment."},
+        {"callout": "Sustainment and redeployment rules are technical and have been the subject of USCIS policy changes. Confirm current requirements with counsel."}
+      ]
+    },
+    {
+      "slug": "targeted-employment-areas",
+      "visible": true,
+      "category": "requirements",
+      "title": "Targeted Employment Areas: Rural, High Unemployment and Infrastructure",
+      "summary": "How a project qualifies for the reduced investment amount and the reserved visa categories.",
+      "body": [
+        {"p": "A targeted employment area (TEA) is a location where the reduced investment amount applies. Under RIA, USCIS makes TEA determinations; states no longer designate high-unemployment areas."},
+        {"h": "High-unemployment TEA"},
+        {"p": "The area must have an unemployment rate of at least 150% of the national average. It can be the single census tract where the project sits, or that tract combined with any or all directly adjacent tracts, measured as a weighted average of the combined area. A county, city or metropolitan area with qualifying unemployment can also qualify."},
+        {"h": "Rural TEA"},
+        {"p": "A rural area is outside a metropolitan statistical area and outside the boundary of any city or town with a population of 20,000 or more based on the most recent decennial census."},
+        {"h": "Infrastructure projects"},
+        {"p": "Qualifying infrastructure projects also receive the reduced investment amount, without a location test."},
+        {"h": "Reserved visas"},
+        {"p": "Each fiscal year, RIA reserves 20% of EB-5 visas for rural projects, 10% for high-unemployment projects and 2% for infrastructure projects. The reserved categories have been a faster path for investors from countries with long backlogs."},
+        {"p": "Designations generally last two years and can be renewed. Use the Catalyst TEA Map for an indicative check, and rely on a professional TEA report for any filing."}
+      ]
+    },
+    {
+      "slug": "job-creation-requirements",
+      "visible": true,
+      "category": "requirements",
+      "title": "How EB-5 Job Creation Is Measured",
+      "summary": "Ten full-time jobs per investor, estimated from project spending in regional center deals.",
+      "body": [
+        {"p": "Each investor must create at least 10 full-time positions, meaning at least 35 hours per week, for qualifying U.S. workers. In regional center projects, jobs are usually estimated by an economist using an input-output model such as RIMS II or IMPLAN, which converts qualifying expenditures and revenues into direct, indirect and induced employment."},
+        {"h": "Construction jobs"},
+        {"p": "Construction spending is often the largest single driver of the job count in real estate projects. RIA added specific rules for how construction jobs are counted when construction lasts less than two years, so the length of the build and the timing of spending both matter."},
+        {"h": "Expenditure records are job records"},
+        {"p": "The economist’s model is only as good as the spending data behind it. When expenditures are tracked by category throughout construction, the final job report can be prepared from verified figures instead of estimates and reconstructions. That is why Catalyst tracks costs in categories ready for the economist’s model from the first draw."}
+      ]
+    },
+    {
+      "slug": "investor-qualifications",
+      "visible": true,
+      "category": "requirements",
+      "title": "What Qualifies Someone to Be an EB-5 Investor?",
+      "summary": "Capital, lawful source, admissibility and the patience for a multi-year process.",
+      "body": [
+        {"p": "There is no education, language or business experience requirement. An investor needs the required capital, documentation of its lawful source, and admissibility to the United States, which involves background and medical checks."},
+        {"p": "Investors should also understand the economic terms of the offering. EB-5 returns are typically modest and the holding period is long; the primary benefit is the immigration outcome, which depends on the project being completed and documented as planned."},
+        {"p": "Sponsors and regional centers that can show investors independent construction oversight give them a clear, verifiable answer to the most important question they ask: will my money be used the way the business plan says?"}
+      ]
+    },
+    {
+      "slug": "eb5-process-step-by-step",
+      "visible": true,
+      "category": "timeline",
+      "title": "The EB-5 Process, Step by Step",
+      "summary": "From project selection to permanent residence, and where construction oversight protects each stage.",
+      "body": [
+        {"p": "The sequence below describes a typical regional center investment. Timing varies with visa availability, country of chargeability and USCIS processing."},
+        {"timeline": true},
+        {"p": "Steps four through eight overlap with construction. Every draw funded during that period becomes part of the evidence the investor will rely on at step eight."}
+      ]
+    },
+    {
+      "slug": "concurrent-filing",
+      "visible": true,
+      "category": "timeline",
+      "title": "What Is Concurrent Filing?",
+      "summary": "Investors already in the U.S. may file for adjustment of status at the same time as the I-526E when a visa is available.",
+      "body": [
+        {"p": "RIA allows an investor who is in the United States in lawful status to file Form I-485 for adjustment of status concurrently with the I-526E petition, provided a visa number is available under the Visa Bulletin for their category and country."},
+        {"p": "A concurrent filer can apply for work and travel authorization while the petitions are pending. For students and professionals in temporary status, that can remove dependence on an employer or school."},
+        {"p": "Concurrent filing does not change the project-side requirements. The investment still has to be deployed and documented; it simply lets the investor wait inside the country."}
+      ]
+    },
+    {
+      "slug": "i526e-and-i829",
+      "visible": true,
+      "category": "timeline",
+      "title": "The I-526E and I-829 Petitions",
+      "summary": "The first petition is about the plan. The second is about what actually happened.",
+      "body": [
+        {"h": "Form I-526E"},
+        {"p": "The investor’s petition, filed through a regional center project. It shows the investor’s lawful source of funds, that the capital has been invested or is actively in the process of being invested, and that the project, as approved in the I-956F, can create the required jobs."},
+        {"h": "Form I-829"},
+        {"p": "Filed in the 90 days before the second anniversary of conditional residence. It asks USCIS to remove the conditions, and it must show that the investment was made and sustained and that the required jobs were created or will be created within a reasonable time."},
+        {"h": "The evidence gap"},
+        {"p": "Several years can separate the two filings. In that time contractors change, documents scatter and staff turn over. Projects that maintain a complete file through construction, with invoices, proofs of payment, lien waivers, inspection reports and dated photos, can support the I-829 directly. Projects that do not are left reconstructing the record when it matters most."}
+      ]
+    },
+    {
+      "slug": "visa-availability-and-retrogression",
+      "visible": true,
+      "category": "timeline",
+      "title": "Visa Availability, Backlogs and Set-Asides",
+      "summary": "Why investors from some countries wait longer, and how reserved visa categories change the math.",
+      "body": [
+        {"p": "EB-5 receives roughly 7.1% of employment-based visas each year, and no single country can use more than its per-country share. When demand from a country exceeds supply, the Visa Bulletin shows a cutoff date and investors from that country wait. Mainland China and India have historically faced the longest waits in the unreserved category."},
+        {"p": "RIA’s reserved categories for rural, high-unemployment and infrastructure projects have operated separately from the unreserved backlog. That has made TEA status a central factor in how projects are marketed to investors from backlogged countries."},
+        {"p": "Longer waits also stretch the period between investment and I-829, which increases the importance of a durable project file."}
+      ]
+    },
+    {
+      "slug": "why-construction-monitoring-matters",
+      "visible": true,
+      "featured": true,
+      "category": "construction",
+      "title": "Why Construction Monitoring Matters in EB-5",
+      "summary": "Construction risk is investor risk. Four ways an unmonitored draw process puts EB-5 capital and immigration outcomes in jeopardy.",
+      "image": "draw-review",
+      "body": [
+        {"p": "Most EB-5 capital funds real estate construction. Construction lending carries well-known risks, and in EB-5 those risks reach beyond a financial loss to the investor’s immigration status."},
+        {"h": "Overfunding"},
+        {"p": "Draws that pay for work not yet in place leave investor capital exposed if the project stalls. Without inspection, front-loaded schedules of values and early stored-materials requests go unchallenged."},
+        {"h": "Scope and budget gaps"},
+        {"p": "Budget gaps, schedule slips and change orders surface late when no one is reading every draw. By the time a shortfall appears in a quarterly report, contingency may already be gone."},
+        {"h": "Unpaid trades"},
+        {"p": "When a general contractor fails to pay subcontractors, liens attach to the collateral. Conditional and unconditional lien waivers, matched to prior payments, are the control that catches this early."},
+        {"h": "Deployment verification"},
+        {"p": "Where the job-creating entity is affiliated, RIA expects deployment to be verified by a construction consultant and confirmed to the fund administrator. That verification has to come from someone who can actually read a draw."},
+        {"p": "Independent construction administration addresses all four, and leaves behind the documented record investors need at I-829."}
+      ]
+    },
+    {
+      "slug": "inside-a-construction-draw",
+      "visible": true,
+      "category": "construction",
+      "title": "Inside a Construction Draw Review",
+      "summary": "What happens between a contractor’s pay application and a fund administrator’s release decision.",
+      "image": "documents",
+      "body": [
+        {"p": "A well-run draw follows the same six steps every month."},
+        {"h": "1. Request"},
+        {"p": "The general contractor submits a pay application in AIA G702 and G703 format, showing the schedule of values, work completed this period, stored materials and retainage, with backup invoices."},
+        {"h": "2. Review"},
+        {"p": "Each line is tested against the approved budget, the construction contract and prior draws. Change orders are checked for approval and budget impact, and cost to complete is recalculated."},
+        {"h": "3. Inspect"},
+        {"p": "A third-party inspector confirms that the work billed is in place, and title is updated to confirm no new liens or encumbrances."},
+        {"h": "4. Reconcile"},
+        {"p": "Conditional waivers for the current payment and unconditional waivers for prior payments are matched to the amounts actually paid to each trade."},
+        {"h": "5. Recommend"},
+        {"p": "A complete funding package with a recommendation goes to the fund administrator, who keeps release authority."},
+        {"h": "6. Verify"},
+        {"p": "After funds move, deployment is confirmed and the required notice is issued within 30 days, and the package is filed in the project record."}
+      ]
+    },
+    {
+      "slug": "deployment-evidence-for-i829",
+      "visible": true,
+      "category": "construction",
+      "title": "Building the I-829 Record During Construction",
+      "summary": "The evidence investors need at removal of conditions is created one draw at a time.",
+      "body": [
+        {"p": "At I-829, investors must show that their capital was invested in the job-creating entity and used for the business described in the approved plan, and that the required jobs were created. For a construction project, the strongest evidence is created contemporaneously."},
+        {"h": "What a complete file contains"},
+        {"ul": [
+          "Executed contracts and approved budget with every reallocation documented",
+          "Pay applications, invoices, proofs of payment and cancelled checks",
+          "Inspection reports and dated site photographs",
+          "Lien waivers and title updates for each draw",
+          "Monthly sources and uses reconciliation showing capital reached the JCE",
+          "Expenditures by category for the economist’s job report",
+          "Certificate of occupancy and final cost certification"
+        ]},
+        {"p": "Catalyst assembles this file as the project is built and delivers it complete at closeout, so the regional center and investors are not reconstructing it years later."}
+      ]
+    },
+    {
+      "slug": "choosing-a-construction-servicer",
+      "visible": true,
+      "category": "construction",
+      "title": "Choosing a Construction Administrator for an EB-5 Loan",
+      "summary": "Questions a fund administrator or regional center should ask before engaging a construction servicer.",
+      "body": [
+        {"ul": [
+          "Has the firm originated, funded and serviced construction loans, or only inspected them?",
+          "Does it understand EB-5 deployment, sustainment and I-829 evidence requirements?",
+          "Will it test every draw line by line, or only review totals?",
+          "How are lien waivers matched to payments, and how are title updates handled?",
+          "How often does senior staff visit the site?",
+          "What does the monthly report look like, and who receives it?",
+          "Does the fund administrator keep release authority?",
+          "Can it support loan servicing after completion, through repayment?"
+        ]},
+        {"p": "Catalyst’s team has originated, funded and serviced hundreds of construction, SBA, USDA and bridge loans, and its affiliate develops large-scale projects. That combination of lender and developer experience is what we bring to each engagement."}
+      ]
+    },
+    {
+      "slug": "eb5-investment-risks",
+      "visible": true,
+      "category": "risk",
+      "title": "Understanding EB-5 Investment Risks",
+      "summary": "EB-5 combines investment risk and immigration risk, and each can trigger the other.",
+      "body": [
+        {"h": "Project risk"},
+        {"p": "Construction delays, cost overruns, contractor default and market changes can reduce returns or impair repayment. They can also delay the jobs an investor needs."},
+        {"h": "Immigration risk"},
+        {"p": "A petition can be denied if source of funds is insufficient, if the project changes materially, or if capital is not deployed and documented as planned."},
+        {"h": "Liquidity and term"},
+        {"p": "EB-5 investments are illiquid and often outstanding for five years or more, longer when redeployment is required."},
+        {"h": "Program risk"},
+        {"p": "The Regional Center Program is authorized through September 30, 2027. Legislative and regulatory changes can affect pending and future petitions."},
+        {"p": "Independent construction administration does not remove these risks, but it converts many of them from surprises into early warnings."}
+      ]
+    },
+    {
+      "slug": "evaluating-an-eb5-project",
+      "visible": true,
+      "category": "risk",
+      "title": "What to Consider When Evaluating an EB-5 Project",
+      "summary": "A diligence checklist from a lender’s and developer’s point of view.",
+      "body": [
+        {"ul": [
+          "Sponsor track record with projects of similar size and type",
+          "Capital stack: where EB-5 sits, how much senior debt and equity is ahead or behind it",
+          "Entitlement and permit status",
+          "Construction contract type, contractor strength, bonding and contingency",
+          "Budget realism and schedule, checked by someone independent",
+          "Job creation coverage, meaning how many more jobs the model shows than investors need",
+          "TEA status and its renewal timing",
+          "Exit: refinance or sale assumptions and the repayment timeline",
+          "Third-party controls: fund administrator, construction administrator and audits"
+        ]},
+        {"p": "Projects that build independent oversight into the structure are easier to underwrite and easier to explain to investors."}
+      ]
+    },
+    {
+      "slug": "ria-integrity-measures",
+      "visible": true,
+      "category": "risk",
+      "title": "The Integrity Measures Added by RIA",
+      "summary": "Fund administration, audits, site visits, promoter registration and bad-actor bars changed how regional centers operate.",
+      "body": [
+        {"p": "The EB-5 Reform and Integrity Act of 2022 paired reauthorization with a set of controls aimed at fraud and misuse of investor funds."},
+        {"ul": [
+          "Third-party fund administration or audited financials for NCEs",
+          "Separate accounts for investor capital",
+          "Regional center audits at least every five years and USCIS site visits",
+          "Annual statements to USCIS with information shared with investors",
+          "Registration of direct and third-party promoters",
+          "Bars on bad actors holding regional center roles",
+          "An EB-5 Integrity Fund financed by regional center and investor fees",
+          "Additional verification where the job-creating entity is affiliated with the regional center or NCE"
+        ]},
+        {"p": "For the construction phase, these provisions place a premium on independent, documented verification that capital reached the project and paid for work in place."}
+      ]
+    }
+  ],
+  "timeline": [
+    {"n": "01", "name": "Select a project", "description": "Review the offering, the sponsor, the capital stack and the TEA status with counsel and advisors."},
+    {"n": "02", "name": "Document source of funds", "description": "Assemble evidence of the lawful source and the path the capital will travel."},
+    {"n": "03", "name": "Subscribe and invest", "description": "Sign subscription documents and wire the investment and fees into the NCE’s escrow or separate account."},
+    {"n": "04", "name": "File Form I-526E", "description": "File the investor petition. Eligible investors in the U.S. may file for adjustment of status concurrently."},
+    {"n": "05", "name": "Capital deployed to the JCE", "description": "The fund administrator releases funds to the project against documented conditions. Construction draws begin.", "catalyst": true},
+    {"n": "06", "name": "Petition approved", "description": "USCIS approves the I-526E based on the investor’s funds and the approved project."},
+    {"n": "07", "name": "Conditional residence", "description": "Through consular processing or adjustment of status, the investor and family receive two-year conditional green cards."},
+    {"n": "08", "name": "Construction and job creation", "description": "The project is built and operated. Expenditures and jobs are documented as they occur.", "catalyst": true},
+    {"n": "09", "name": "File Form I-829", "description": "In the 90 days before the second anniversary, file to remove conditions with evidence of investment, sustainment and jobs."},
+    {"n": "10", "name": "Permanent residence", "description": "USCIS removes conditions and the investor holds an unconditional green card."},
+    {"n": "11", "name": "Repayment and citizenship", "description": "The NCE is repaid and returns capital to investors. Permanent residents may later apply for naturalization."}
+  ],
+  "glossary": [
+    ["NCE", "New commercial enterprise. The fund entity investors buy into."],
+    ["JCE", "Job-creating entity. The company that builds or operates the project and receives the NCE’s capital."],
+    ["TEA", "Targeted employment area. A rural or high-unemployment area where the reduced investment amount applies."],
+    ["RIA", "The EB-5 Reform and Integrity Act of 2022, which reauthorized and reformed the regional center program."],
+    ["I-526E", "The petition filed by a regional center investor."],
+    ["I-829", "The petition to remove conditions on permanent residence."],
+    ["I-956F", "The regional center’s application for approval of a specific project."],
+    ["I-956G", "The regional center’s annual statement to USCIS."],
+    ["Fund administrator", "A third party that controls investor accounts and authorizes the release of capital."],
+    ["AIA G702 / G703", "The standard construction pay application and continuation sheet used for draws."],
+    ["Schedule of values", "The contractor’s breakdown of the contract sum by work item, used to measure progress."],
+    ["Retainage", "A portion of each payment withheld until completion to secure performance."],
+    ["Lien waiver", "A contractor’s or supplier’s release of lien rights for amounts paid."],
+    ["Date-down", "A title update confirming no new liens or encumbrances since the last draw."],
+    ["Redeployment", "Reinvesting repaid EB-5 capital into a new qualifying activity to satisfy sustainment."]
+  ]
+}

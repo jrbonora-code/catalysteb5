@@ -1,0 +1,18 @@
+[
+  {"slug": "envision-cinema", "visible": true, "name": "Envision Cinema", "amount": 11.45, "city": "Cincinnati", "state": "OH", "type": "Entertainment"},
+  {"slug": "fairfield-inn-philadelphia", "visible": true, "name": "Fairfield Inn", "amount": 10.5, "city": "Philadelphia", "state": "PA", "type": "Hospitality"},
+  {"slug": "hyatt-place-santa-cruz", "visible": true, "name": "Hyatt Place", "amount": 18.86, "city": "Santa Cruz", "state": "CA", "type": "Hospitality"},
+  {"slug": "marriott-dual-brand-charlotte", "visible": true, "name": "Marriott Dual Brand", "amount": 23.8, "city": "Charlotte", "state": "NC", "type": "Hospitality"},
+  {"slug": "staybridge-orlando", "visible": true, "name": "Staybridge", "amount": 11.88, "city": "Orlando", "state": "FL", "type": "Hospitality"},
+  {"slug": "boutique-hotel-richland", "visible": true, "name": "Boutique Hotel", "amount": 11.34, "city": "Richland", "state": "WA", "type": "Hospitality"},
+  {"slug": "rose-garden-alf", "visible": true, "name": "Rose Garden ALF", "amount": 10.25, "city": "Fort Myers", "state": "FL", "type": "Seniors Housing"},
+  {"slug": "marriott-tribute-st-petersburg", "visible": true, "name": "Marriott Tribute Hotel", "amount": 15.35, "city": "St. Petersburg", "state": "FL", "type": "Hospitality"},
+  {"slug": "hyatt-place-wesley-chapel", "visible": true, "name": "Hyatt Place", "amount": 17.98, "city": "Wesley Chapel", "state": "FL", "type": "Hospitality"},
+  {"slug": "residence-inn-jacksonville", "visible": true, "name": "Residence Inn", "amount": 13.81, "city": "Jacksonville", "state": "FL", "type": "Hospitality"},
+  {"slug": "hampton-inn-buena-park", "visible": true, "name": "Hampton Inn", "amount": 13.02, "city": "Buena Park", "state": "CA", "type": "Hospitality"},
+  {"slug": "fairfield-inn-wesley-chapel", "visible": true, "name": "Fairfield Inn", "amount": 10.5, "city": "Wesley Chapel", "state": "FL", "type": "Hospitality"},
+  {"slug": "memory-care-phoenix", "visible": true, "name": "Memory Care Facility", "amount": 10.5, "city": "Phoenix", "state": "AZ", "type": "Seniors Housing"},
+  {"slug": "self-storage-houston", "visible": true, "name": "Self Storage", "amount": 5.3, "city": "Houston", "state": "TX", "type": "Self Storage"},
+  {"slug": "towneplace-indianapolis", "visible": true, "name": "TownePlace Suites", "amount": 12.3, "city": "Indianapolis", "state": "IN", "type": "Hospitality"},
+  {"slug": "mixed-use-west-palm-beach", "visible": true, "name": "Mixed-Use Project", "amount": 32, "city": "West Palm Beach", "state": "FL", "type": "Mixed-Use", "current": true, "note": "Current servicing mandate"}
+]

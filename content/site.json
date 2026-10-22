@@ -1,0 +1,43 @@
+{
+  "name": "Catalyst Capital Management",
+  "short": "Catalyst",
+  "product": "EB-5 Construction Administration and Loan Servicing",
+  "url": "https://eb5.catalystccm.com",
+  "description": "Catalyst Capital Management provides construction administration and loan servicing for EB-5 fund administrators, regional centers and EB-5 funds.",
+  "address": {
+    "street": "100 South Ashley Drive, Suite 275",
+    "city": "Tampa",
+    "state": "FL",
+    "zip": "33602"
+  },
+  "phone": "(813) 670-3223",
+  "phoneRaw": "8136703223",
+  "email": "jbonora@catalystcd.com",
+  "contactName": "Joseph Bonora, President",
+  "ccm": "https://catalystccm.com",
+  "cd": "https://www.catalystcd.com",
+  "linkedin": "https://www.linkedin.com/company/catalyst-community-development",
+  "nav": [
+    ["Services", "/services/"],
+    ["Track Record", "/track-record/"],
+    ["TEA Map", "/tea-map/"],
+    ["Info Center", "/info-center/"],
+    ["About", "/about/"],
+    ["Contact", "/contact/"]
+  ],
+  "stats": [
+    {"value": "$180M", "label": "EB-5 Funded Construction Loans"},
+    {"value": "$660M", "label": "Loans Led by Catalyst’s Principal"},
+    {"value": "15", "label": "States with Closed Loans"},
+    {"value": "25+", "label": "Years of Lending Experience"}
+  ],
+  "risks": [
+    {"name": "Overfunding", "description": "Draws that pay for work not yet in place leave investor capital exposed if the project stalls."},
+    {"name": "Scope and Budget Gaps", "description": "Budget gaps, schedule slips and change orders surface late when no one is reading every draw."},
+    {"name": "Unpaid Trades", "description": "A general contractor fails to pay subcontractors, resulting in liens against the collateral."},
+    {"name": "Section Q", "description": "Under the 2022 Reform and Integrity Act, an affiliated JCE must confirm to the fund administrator within 30 days that a construction consultant verified each deployment.", "highlight": true}
+  ],
+  "currentMandate": "Servicing partner to an EB-5 syndicator on a $32 million mezzanine loan for a mixed-use project, working alongside the fund’s third-party administrator and regional center.",
+  "disclaimer": "Catalyst Capital Management does not provide legal, immigration, tax or securities advice. Content on this site is general information, is not an offer to sell or a solicitation to buy any security, and should be confirmed with qualified EB-5 counsel.",
+  "asOf": "October 2026"
+}

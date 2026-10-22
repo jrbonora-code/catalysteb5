@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "joseph-bonora",
+    "visible": true,
+    "name": "Joseph Bonora",
+    "title": "Founder and President",
+    "dept": "Executive",
+    "bio": [
+      "Joseph Bonora has more than 25 years in real estate finance and development and sets the strategic direction of the Catalyst companies. He co-founded Aileron Investment Management and led over $660 million in small business and commercial real estate loans nationwide, including $180 million of ground-up construction loans funded by EB-5 investors through a regional center partnership.",
+      "Joe has deep experience with LIHTC, HUD, USDA, SBA, EB-5 and tax increment financing. Through Catalyst Community Development he has developed large-scale multifamily and mixed-use projects across Southwest Florida, which is why Catalyst reads a construction draw the way a developer does."
+    ]
+  },
+  {
+    "slug": "reid-jaeger",
+    "visible": true,
+    "name": "Reid Jaeger",
+    "title": "Director",
+    "dept": "Development and Construction",
+    "bio": [
+      "Reid Jaeger manages ground-up development at Catalyst, including oversight of design teams, general contractors and property managers. He is the day-to-day point of contact between the owner, the design team, subcontractors, vendors and government agencies.",
+      "Reid was previously Real Estate Portfolio Manager at Forge Capital Partners and a commercial credit analyst on SBA and USDA loans at Aileron, where he underwrote government guaranteed loans nationwide."
+    ]
+  },
+  {
+    "slug": "justin-blackhall",
+    "visible": true,
+    "name": "Justin Blackhall",
+    "title": "Legal Affairs",
+    "dept": "Legal and Risk",
+    "bio": [
+      "Justin Blackhall leads due diligence, loan documentation, risk management and loss mitigation for Catalyst Capital Management and its funds.",
+      "He represents U.S. and international lenders in complex financings, with a specialization in EB-5 lending."
+    ]
+  }
+]
