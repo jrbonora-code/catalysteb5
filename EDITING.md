@@ -50,6 +50,6 @@ Catalyst copy does not use em dashes or en dashes as pauses. Use a comma, semico
 - **Photography:** `tools-process-images.py` and `static/img/`.
 - **Logo:** `static/img/brand/`, the same files as catalystcd.com.
 - **Colors, type, layout:** `static/styles.css` and `build.py`.
-- **TEA Map behavior:** `static/tea-map.js`; the Census key is a Netlify environment variable (`CENSUS_API_KEY`).
+- **TEA Map:** the embedded IIUSA map is set in `page_tea()` in `build.py`.
 - **Redirects:** `static/_redirects`.
 - **Form notifications:** Netlify dashboard, **Forms**.

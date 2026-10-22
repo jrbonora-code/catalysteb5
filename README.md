@@ -6,8 +6,8 @@ Static site for Catalyst Capital Management’s EB-5 construction administration
 build.py                  generator, run: python3 build.py
 content/*.json            all site content
 static/                   stylesheet, scripts, redirects, processed images
-static/tea-map.js         the TEA Map tool
-netlify/functions/acs.mjs optional Census data proxy for the TEA Map
+static/tea-map.js         former in-house TEA Map tool (no longer loaded)
+netlify/functions/acs.mjs Census data proxy for the former in-house TEA Map (unused)
 tools-process-images.py   turns source-photos/ into static/img/ (needs Pillow, run locally)
 source-photos/            original photography and images pulled from the 2026 deck
 EDITING.md                how to change site content
@@ -36,7 +36,7 @@ Every push rebuilds and deploys. Every pull request gets its own preview URL.
 python3 build.py
 ```
 
-Drag the `dist` folder onto the Netlify dashboard. Good for a preview. (The TEA Map still works without the function; it falls back to public data.)
+Drag the `dist` folder onto the Netlify dashboard. Good for a preview.
 
 ### Custom domain
 
@@ -48,7 +48,7 @@ Drag the `dist` folder onto the Netlify dashboard. Good for a preview. (The TEA 
 
 **Pages.** Home, Services, Track Record, TEA Map, Info Center (26 articles, each with its own page), About, Contact, plus Thank You, Privacy, Terms and 404.
 
-**TEA Map.** Address search or map click. Finds the census tract and every directly adjacent tract, pulls ACS unemployment, computes the best qualifying combination (labor-force weighted, against 150% of the national rate), lets the user add or remove tracts, and runs the rural test (outside any metro area and outside any city of 20,000+ per the 2020 Census). Results can be copied as a text summary. Deep link: `/tea-map/?address=2000 Main St, Fort Myers, FL`.
+**TEA Map.** Embeds the free IIUSA EB-5 TEA Map (https://eb5-unemployment-area.themapsolutely.com/) in an iframe, with a link to open it in a new tab if the frame does not load. The previous in-house tool (`static/tea-map.js`) is kept in the repo but no longer loaded; restore the old `page_tea()` from git history to bring it back.
 
 - Boundaries, metro areas and city populations come from U.S. Census Bureau TIGERweb. Public, no key.
 - Unemployment comes from the Census Data API through `netlify/functions/acs.mjs` **when a key is set**, otherwise from Esri Living Atlas ACS layers. Public, no key, but that layer lags the Census release (it currently serves an older 5-year vintage).
@@ -106,4 +106,4 @@ python3 build.py
 cd dist && python3 -m http.server 8000
 ```
 
-Open http://localhost:8000. The `/api/acs` function only runs on Netlify (or `netlify dev`); locally the TEA Map uses the Esri fallback automatically.
+Open http://localhost:8000. The `/api/acs` function only runs on Netlify (or `netlify dev`).
