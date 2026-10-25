@@ -370,7 +370,7 @@ def developer_band():
   <div class="devgrid">
     <div class="rv">
       <span class="eyebrow on-dark">A Developer’s Perspective</span>
-      <h2>We understand how developers operate.</h2>
+      <h2>We understand how developers operate</h2>
       <p style="margin-top:22px;font-size:18px;line-height:1.6">{e(DEV['intro'])}</p>
       <div style="margin-top:34px">{dev_table()}</div>
       <div class="btns"><a class="btn light" href="{e(SITE['cd'])}" target="_blank" rel="noopener">Visit catalystcd.com <span class="ar">&rarr;</span></a></div>
@@ -629,10 +629,7 @@ def page_services():
 
 def page_track():
     loans = "".join(loan_card(l, i) for i, l in enumerate(LOANS))
-    stats = [{"value": SITE["stats"][0]["value"], "label": "EB-5 Funded Construction Loans"},
-             {"value": str(len(LOANS)), "label": "Representative Loans Shown"},
-             {"value": str(len(STATES)), "label": "States Represented Here"},
-             {"value": SITE["stats"][1]["value"], "label": "Loans Led by Catalyst’s Principal"}]
+    stats = SITE["trackStats"]
     return (head(f"Track Record | {SITE['name']} EB-5",
                  "Representative EB-5 funded construction loans originated, funded and serviced by the Catalyst team, "
                  "from hotels and seniors housing to self storage and mixed-use.",
@@ -643,7 +640,7 @@ def page_track():
                "cranes", "Tower cranes over buildings under construction")
         + f"""
 <div class="s1"></div>
-{lead("The Catalyst team has originated, funded and serviced hundreds of construction, SBA, USDA and bridge loans, including $180 million of ground-up construction loans funded by EB-5 investors through a regional center partnership.")}
+{lead("The Catalyst team has originated, funded and serviced hundreds of construction, SBA, USDA and bridge loans over the last 15 years, including over $200 million of ground-up construction loans funded by EB-5 investors through a regional center partnership.")}
 
 <div class="s1"></div>
 <section class="stats"><div class="wide"><div class="stats-grid">
@@ -651,18 +648,10 @@ def page_track():
 </div></div></section>
 
 <div class="s2"></div>
-<section><div class="container rv" style="max-width:1100px">
-  <div class="mandate">
-    <span class="eyebrow on-dark">Current EB-5 Mandate</span>
-    <p>{e(SITE['currentMandate'])}</p>
-  </div>
-</div></section>
-
-<div class="s2"></div>
 <section><div class="wide">
   <div class="rv sechead">
     <h2>Representative EB-5 construction loans</h2>
-    <div class="small-caps muted">{len(LOANS)} loans &middot; {len(STATES)} states</div>
+    <div class="small-caps muted">{len(LOANS)} representative loans</div>
   </div>
   <div class="loan-grid">{loans}</div>
 </div></section>
@@ -684,7 +673,7 @@ def page_about():
 </div>"""
     pillars = [("Lenders First", "We have originated, funded and serviced hundreds of construction, SBA, USDA and bridge loans. We read a loan agreement for what it requires of the servicer, and we hold every draw to it."),
                ("Developers Too", "Our affiliate builds large-scale multifamily and mixed-use projects. We know how budgets, schedules and change orders behave in the field because we manage them ourselves."),
-               ("EB-5 Native", "We have financed $180 million of EB-5 funded construction loans through a regional center partnership. Deployment, sustainment and I-829 evidence are built into how we work.")]
+               ("EB-5 Native", "We have financed over $200 million of EB-5 funded construction loans through a regional center partnership. Deployment, sustainment and I-829 evidence are built into how we work.")]
     pcards = "".join(f'<div class="pillar rv" style="transition-delay:{i*80}ms"><div class="pi">{["01","02","03"][i]}</div>'
                      f'<h4>{e(k)}</h4><p class="muted">{e(v)}</p></div>' for i, (k, v) in enumerate(pillars))
     ld = {"@context": "https://schema.org", "@type": "AboutPage", "url": SITE["url"] + "/about/",
@@ -1048,7 +1037,7 @@ def checks():
     """Non-fatal content checks, printed at build time."""
     notes = []
     stated = int(re.sub(r"[^0-9]", "", SITE["stats"][0]["value"]))
-    if abs(TRACK_TOTAL - stated) > 1:
+    if TRACK_TOTAL > stated + 1:
         notes.append(f"representative loans (excluding current mandate) total {money(TRACK_TOTAL)}, "
                      f"stat tile says {SITE['stats'][0]['value']}")
     for a in ARTICLES:

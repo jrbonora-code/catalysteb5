@@ -88,7 +88,7 @@ The 16 loan photos and three portraits were extracted from the 2026 deck. To cha
 
 ## Decisions to confirm before launch
 
-1. **$180 million vs. the loans shown.** The 15 representative loans (excluding the current $32 million West Palm Beach mandate) add up to $196.84 million, more than the $180 million tile. The build prints this as a note. Either some of those loans were partly EB-5 funded, or the tile should read higher. Same numbers as the deck, so the site matches it for now.
+1. **Loan totals.** The 15 representative loans (excluding the $32 million West Palm Beach loan) add up to $196.84 million, consistent with the $200M+ tile. Track Record stats live in `trackStats` in `content/site.json`; the homepage tiles are `stats`. The build prints a note if the loans shown ever exceed the stated EB-5 total.
 2. **Developer figures.** The deck says $365M+ completed and 1,881 units; catalystcd.com computes $343 million and 1,785 delivered units from its project records. This site uses the deck. Pick one so the two sites agree.
 3. **Section Q.** The risk card and draw cycle use the deck’s wording (affiliated JCE confirms to the fund administrator within 30 days that a construction consultant verified each deployment). Have EB-5 counsel confirm the statutory reference and wording, since it is a specific legal claim on a public page.
 4. **Loan photos are small.** The deck images top out around 400 pixels wide. They hold up in the four-column grid but would benefit from originals.

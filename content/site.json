@@ -26,9 +26,9 @@
     ["Contact", "/contact/"]
   ],
   "stats": [
-    {"value": "$180M", "label": "EB-5 Funded Construction Loans"},
-    {"value": "$660M", "label": "Loans Led by Catalyst’s Principal"},
-    {"value": "15", "label": "States with Closed Loans"},
+    {"value": "$200M+", "label": "EB-5 Funded Construction Loans"},
+    {"value": "$800M+", "label": "Loans Led by Catalyst’s Principals"},
+    {"value": "16", "label": "States We’ve Closed Transactions In"},
     {"value": "25+", "label": "Years of Lending Experience"}
   ],
   "risks": [
@@ -36,6 +36,12 @@
     {"name": "Scope and Budget Gaps", "description": "Budget gaps, schedule slips and change orders surface late when no one is reading every draw."},
     {"name": "Unpaid Trades", "description": "A general contractor fails to pay subcontractors, resulting in liens against the collateral."},
     {"name": "Section Q", "description": "Under the 2022 Reform and Integrity Act, an affiliated JCE must confirm to the fund administrator within 30 days that a construction consultant verified each deployment.", "highlight": true}
+  ],
+  "trackStats": [
+    {"value": "$200M+", "label": "EB-5 Funded Construction Loans"},
+    {"value": "15 Years", "label": "EB-5 Related Experience"},
+    {"value": "16", "label": "States We’ve Closed Transactions In"},
+    {"value": "$800M+", "label": "Loans Led by Catalyst’s Principals"}
   ],
   "currentMandate": "Servicing partner to an EB-5 syndicator on a $32 million mezzanine loan for a mixed-use project, working alongside the fund’s third-party administrator and regional center.",
   "disclaimer": "Catalyst Capital Management does not provide legal, immigration, tax or securities advice. Content on this site is general information, is not an offer to sell or a solicitation to buy any security, and should be confirmed with qualified EB-5 counsel.",
