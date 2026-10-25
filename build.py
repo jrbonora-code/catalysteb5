@@ -949,7 +949,7 @@ def page_contact():
     roles = ["Fund administrator", "Regional center", "EB-5 fund or NCE manager", "Developer or JCE",
              "Immigration or securities counsel", "EB-5 investor", "Other"]
     models = ["Core: Construction Administration", "Expanded: Loan Servicing and NCE Support",
-              "Full Cycle: Origination and Servicing", "Not sure yet"]
+              "Special Assets: Loan Workouts", "Not sure yet"]
     ro = "".join(f'<option>{e(x)}</option>' for x in roles)
     mo = "".join(f'<option>{e(x)}</option>' for x in models)
     a = SITE["address"]

@@ -1,54 +1,245 @@
 {
   "constructionAdmin": [
-    {"step": "01", "name": "Pre-Closing Diligence", "items": ["GC qualifications and licensing", "Plans, specs and permits", "Budget and cost review", "Schedule validation", "Insurance certificates"]},
-    {"step": "02", "name": "Onboarding", "items": ["Draw procedures set with the fund administrator", "AIA draw format training for the GC", "Sources and uses baseline", "Reporting templates and portal setup"]},
-    {"step": "03", "name": "Draw Administration", "items": ["Draws tested against budget by line", "Invoices and proofs of payment", "Retainage and lien waivers", "Title updates each draw", "Change orders and reallocations"]},
-    {"step": "04", "name": "Site Monitoring", "items": ["Third-party inspection before each draw", "Catalyst site visits at least every 90 days", "Photo reports", "Schedule and permit status"]},
-    {"step": "05", "name": "Completion and Closeout", "items": ["Final unconditional lien waivers", "Punch list and certificate of occupancy", "Final cost certification", "Complete project file delivered"]}
+    {
+      "step": "01",
+      "name": "Pre-Closing Diligence",
+      "items": [
+        "GC qualifications and licensing",
+        "Plans, specs and permits",
+        "Budget and cost review",
+        "Schedule validation",
+        "Insurance certificates"
+      ]
+    },
+    {
+      "step": "02",
+      "name": "Onboarding",
+      "items": [
+        "Draw procedures set with the fund administrator",
+        "AIA draw format training for the GC",
+        "Sources and uses baseline",
+        "Reporting templates and portal setup"
+      ]
+    },
+    {
+      "step": "03",
+      "name": "Draw Administration",
+      "items": [
+        "Draws tested against budget by line",
+        "Invoices and proofs of payment",
+        "Retainage and lien waivers",
+        "Title updates each draw",
+        "Change orders and reallocations"
+      ]
+    },
+    {
+      "step": "04",
+      "name": "Site Monitoring",
+      "items": [
+        "Third-party inspection before each draw",
+        "Catalyst site visits at least every 90 days",
+        "Photo reports",
+        "Schedule and permit status"
+      ]
+    },
+    {
+      "step": "05",
+      "name": "Completion and Closeout",
+      "items": [
+        "Final unconditional lien waivers",
+        "Punch list and certificate of occupancy",
+        "Final cost certification",
+        "Complete project file delivered"
+      ]
+    }
   ],
   "loanServicing": [
-    {"step": "01", "name": "Document Review", "items": ["Review loan documents for servicing requirements, payment terms, funding conditions, reserves and reporting obligations", "Coordinate with the EB-5 fund’s loan counsel to identify inconsistencies and clarify administration procedures before closing"]},
-    {"step": "02", "name": "Loan Closing and Setup", "items": ["Review executed documents and establish loan records, payment schedules and covenant tracking", "Verify opening balances, set up reserve and escrow accounts, and communicate servicing procedures to the borrower"]},
-    {"step": "03", "name": "Funding and Disbursement", "items": ["Review funding requests and supporting documentation against loan requirements", "For construction loans, coordinate inspections, review lien waivers, and monitor budget availability and cost to complete before recommending disbursements"]},
-    {"step": "04", "name": "Servicing and Monitoring", "items": ["Calculate and collect payments, administer reserves, and track taxes and insurance", "Review borrower reporting and covenant compliance, provide lender updates, and escalate delinquencies or material exceptions"]},
-    {"step": "05", "name": "Repayment and Closeout", "items": ["Track maturity dates and coordinate repayment requirements", "Prepare payoff statements, reconcile principal, interest and fees, and coordinate collateral releases and the return of remaining reserves following receipt of cleared funds"]}
+    {
+      "step": "01",
+      "name": "Document Review",
+      "items": [
+        "Review loan documents for servicing requirements, payment terms, funding conditions, reserves and reporting obligations",
+        "Coordinate with the EB-5 fund’s loan counsel to identify inconsistencies and clarify administration procedures before closing"
+      ]
+    },
+    {
+      "step": "02",
+      "name": "Loan Closing and Setup",
+      "items": [
+        "Review executed documents and establish loan records, payment schedules and covenant tracking",
+        "Verify opening balances, set up reserve and escrow accounts, and communicate servicing procedures to the borrower"
+      ]
+    },
+    {
+      "step": "03",
+      "name": "Funding and Disbursement",
+      "items": [
+        "Review funding requests and supporting documentation against loan requirements",
+        "For construction loans, coordinate inspections, review lien waivers, and monitor budget availability and cost to complete before recommending disbursements"
+      ]
+    },
+    {
+      "step": "04",
+      "name": "Servicing and Monitoring",
+      "items": [
+        "Calculate and collect payments, administer reserves, and track taxes and insurance",
+        "Review borrower reporting and covenant compliance, provide lender updates, and escalate delinquencies or material exceptions"
+      ]
+    },
+    {
+      "step": "05",
+      "name": "Repayment and Closeout",
+      "items": [
+        "Track maturity dates and coordinate repayment requirements",
+        "Prepare payoff statements, reconcile principal, interest and fees, and coordinate collateral releases and the return of remaining reserves following receipt of cleared funds"
+      ]
+    }
   ],
   "drawCycle": [
-    {"n": "1", "name": "Request", "description": "GC submits the draw in AIA format with backup."},
-    {"n": "2", "name": "Review", "description": "Costs tested against budget, invoices and contracts."},
-    {"n": "3", "name": "Inspect", "description": "Engineer confirms work in place; title is updated."},
-    {"n": "4", "name": "Reconcile", "description": "Lien waivers matched to prior payments."},
-    {"n": "5", "name": "Recommend", "description": "Funding package sent to the fund administrator."},
-    {"n": "6", "name": "Verify", "description": "Deployment confirmed and Section Q notice issued within 30 days.", "highlight": true}
+    {
+      "n": "1",
+      "name": "Request",
+      "description": "GC submits the draw in AIA format with backup."
+    },
+    {
+      "n": "2",
+      "name": "Review",
+      "description": "Costs tested against budget, invoices and contracts."
+    },
+    {
+      "n": "3",
+      "name": "Inspect",
+      "description": "Engineer confirms work in place; title is updated."
+    },
+    {
+      "n": "4",
+      "name": "Reconcile",
+      "description": "Lien waivers matched to prior payments."
+    },
+    {
+      "n": "5",
+      "name": "Recommend",
+      "description": "Funding package sent to the fund administrator."
+    },
+    {
+      "n": "6",
+      "name": "Verify",
+      "description": "Deployment confirmed and Section Q notice issued within 30 days.",
+      "highlight": true
+    }
   ],
   "complianceConstruction": [
-    {"name": "Eligible cost determination", "description": "From plans, specs and the cost breakdown."},
-    {"name": "Deployment evidence", "description": "Contracts, invoices, proofs of payment and cancelled checks."},
-    {"name": "Expenditure tracking", "description": "By category, ready for the economist’s job creation model."},
-    {"name": "Section Q verification", "description": "Construction consultant sign-off on each deployment."},
-    {"name": "Sources and uses", "description": "Reconciled monthly, showing capital reached the JCE."},
-    {"name": "I-829 support file", "description": "Dated site photos and construction records."}
+    {
+      "name": "Eligible cost determination",
+      "description": "From plans, specs and the cost breakdown."
+    },
+    {
+      "name": "Deployment evidence",
+      "description": "Contracts, invoices, proofs of payment and cancelled checks."
+    },
+    {
+      "name": "Expenditure tracking",
+      "description": "By category, ready for the economist’s job creation model."
+    },
+    {
+      "name": "Section Q verification",
+      "description": "Construction consultant sign-off on each deployment."
+    },
+    {
+      "name": "Sources and uses",
+      "description": "Reconciled monthly, showing capital reached the JCE."
+    },
+    {
+      "name": "I-829 support file",
+      "description": "Dated site photos and construction records."
+    }
   ],
   "complianceServicing": [
-    {"name": "Loan Boarding", "description": "Review closing documents, establish loan records, and track payment terms, covenants and reporting deadlines."},
-    {"name": "Collateral Protection", "description": "Track tax payments, insurance coverage and UCC administration."},
-    {"name": "Borrower Coordination", "description": "Serve as the primary servicing contact and coordinate payoff requests and loan releases."}
+    {
+      "name": "Loan Boarding",
+      "description": "Review closing documents, establish loan records, and track payment terms, covenants and reporting deadlines."
+    },
+    {
+      "name": "Collateral Protection",
+      "description": "Track tax payments, insurance coverage and UCC administration."
+    },
+    {
+      "name": "Borrower Coordination",
+      "description": "Serve as the primary servicing contact and coordinate payoff requests and loan releases."
+    }
   ],
   "engagements": [
-    {"tier": "Core", "name": "Construction Administration", "description": "For a fund administrator or regional center that needs construction oversight on a specific loan.", "items": ["Pre-closing diligence", "Draw administration", "Inspections and site visits", "Section Q verification", "Monthly reporting"]},
-    {"tier": "Expanded", "name": "Loan Servicing and NCE Support", "description": "For sponsors who want an experienced hand supporting the NCE manager day to day.", "items": ["Everything in Core", "NCE administrative support", "Coordination with the fund administrator and escrow bank", "Investment file upkeep"]},
-    {"tier": "Full Cycle", "name": "Origination and Servicing", "description": "For regional centers seeking vetted projects, Catalyst sources, underwrites, closes and services the loan.", "items": ["Loans of $15M to $80M", "Senior, mezzanine or pledge structures", "Hotels, manufacturing, apartments, mixed-use, infrastructure, data centers", "Rural and TEA"], "highlight": true}
+    {
+      "tier": "Core",
+      "name": "Construction Administration",
+      "description": "For a fund administrator or regional center that needs construction oversight on a specific loan.",
+      "items": [
+        "Pre-closing diligence",
+        "Draw administration",
+        "Inspections and site visits",
+        "Section Q verification",
+        "Monthly reporting"
+      ]
+    },
+    {
+      "tier": "Expanded",
+      "name": "Loan Servicing and NCE Support",
+      "description": "For sponsors who want an experienced hand supporting the NCE manager day to day.",
+      "items": [
+        "Everything in Core",
+        "NCE administrative support",
+        "Coordination with the fund administrator and escrow bank",
+        "Investment file upkeep"
+      ]
+    },
+    {
+      "tier": "Special Assets",
+      "name": "Special Assets and Loan Workouts",
+      "description": "For NCEs, fund administrators, sponsors and EB-5 funds when a project loan defaults or is headed there. Catalyst acts as special servicer, protecting investor capital and immigration outcomes from early intervention through resolution.",
+      "items": [
+        "Default triage, valuation and a resolution plan",
+        "Modifications, forbearance, extensions and discounted payoffs",
+        "Foreclosure, receivership and deed-in-lieu, coordinated with counsel",
+        "REO stabilization, asset management and disposition",
+        "Sustainment and redeployment planning, with reporting to the fund administrator and regional center"
+      ],
+      "highlight": true
+    }
   ],
   "valueFundAdmin": [
-    {"name": "Verified data in a consistent format.", "description": "Every draw arrives reviewed, inspected and reconciled."},
-    {"name": "A qualified Section Q verifier.", "description": "Deployment notices backed by construction expertise."},
-    {"name": "Defensible release decisions.", "description": "A complete audit trail behind every dollar you approve."},
-    {"name": "No construction staff to build.", "description": "Expertise on demand, project by project."}
+    {
+      "name": "Verified data in a consistent format.",
+      "description": "Every draw arrives reviewed, inspected and reconciled."
+    },
+    {
+      "name": "A qualified Section Q verifier.",
+      "description": "Deployment notices backed by construction expertise."
+    },
+    {
+      "name": "Defensible release decisions.",
+      "description": "A complete audit trail behind every dollar you approve."
+    },
+    {
+      "name": "No construction staff to build.",
+      "description": "Expertise on demand, project by project."
+    }
   ],
   "valueRegionalCenter": [
-    {"name": "Independent oversight investors look for.", "description": "A third-party servicer strengthens the offering."},
-    {"name": "Early warning.", "description": "Budget, schedule and lien issues flagged before they become defaults."},
-    {"name": "Protected I-829 outcomes.", "description": "Capital deployed as planned and documented as it goes."},
-    {"name": "Scale across projects.", "description": "One servicing standard for every offering you sponsor."}
+    {
+      "name": "Independent oversight investors look for.",
+      "description": "A third-party servicer strengthens the offering."
+    },
+    {
+      "name": "Early warning.",
+      "description": "Budget, schedule and lien issues flagged before they become defaults."
+    },
+    {
+      "name": "Protected I-829 outcomes.",
+      "description": "Capital deployed as planned and documented as it goes."
+    },
+    {
+      "name": "Scale across projects.",
+      "description": "One servicing standard for every offering you sponsor."
+    }
   ]
 }
