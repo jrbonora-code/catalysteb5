@@ -700,3 +700,9 @@ a:hover .more .ar{transform:translateX(5px)}
 .hero h1{max-width:17ch}
 .phero .sub{margin-top:22px;max-width:56ch;font-size:18px;font-weight:300;color:rgba(255,255,255,.88);line-height:1.6}
 .phero h1{max-width:20ch}
+
+/* Header: switch to the menu button before the six nav items and the proposal button start wrapping */
+@media(max-width:1100px){
+  nav,.portal{display:none}
+  .burger{display:flex}
+}

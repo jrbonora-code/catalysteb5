@@ -22,10 +22,29 @@
   var RURAL_POP = 20000;
 
   var map = L.map('teaMap', { scrollWheelZoom: false, zoomControl: true }).setView([39.5, -98.35], 4);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    maxZoom: 18, subdomains: 'abcd',
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a> | Boundaries: U.S. Census Bureau'
+  // Basemap: Esri Light Gray Canvas (no API key). Place labels sit in their own pane
+  // above the tract shading so street and city names stay readable. If Esri tiles
+  // fail repeatedly, switch to OpenStreetMap's standard tiles.
+  var ESRI_TILES = 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/';
+  var ESRI_ATTR = 'Basemap &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors | Boundaries and data: U.S. Census Bureau';
+  map.createPane('labels');
+  map.getPane('labels').style.zIndex = 450;
+  map.getPane('labels').style.pointerEvents = 'none';
+  var base = L.tileLayer(ESRI_TILES + 'World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 16, attribution: ESRI_ATTR
   }).addTo(map);
+  var labels = L.tileLayer(ESRI_TILES + 'World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 16, pane: 'labels'
+  }).addTo(map);
+  var tileErrors = 0;
+  base.on('tileerror', function () {
+    if (++tileErrors !== 4) return;
+    map.removeLayer(base); map.removeLayer(labels);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | Boundaries and data: U.S. Census Bureau'
+    }).addTo(map);
+  });
   map.on('focus', function () { map.scrollWheelZoom.enable(); });
   map.on('blur', function () { map.scrollWheelZoom.disable(); });
 
