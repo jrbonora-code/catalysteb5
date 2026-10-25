@@ -44,6 +44,17 @@ TRACK_TOTAL = sum(l["amount"] for l in TRACK)
 STATES = sorted({l["state"] for l in LOANS})
 
 e = lambda s: html.escape(str(s or ""), quote=True)
+
+
+def _ver(name):
+    """Short content hash for cache busting. /assets/ is served with a one-year
+    immutable cache, so every change to a CSS or JS file must change its URL."""
+    import hashlib
+    with open(os.path.join(STATIC, name), "rb") as f:
+        return hashlib.sha1(f.read()).hexdigest()[:10]
+
+
+V = {n: _ver(n) for n in ("styles.css", "app.js", "tea-map.js")}
 YEAR = datetime.date.today().year
 TODAY = datetime.date.today().isoformat()
 
@@ -131,7 +142,7 @@ def head(title, desc, path, image=None, jsonld=None, extra=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/styles.css">{extra}
+<link rel="stylesheet" href="/assets/styles.css?v={V['styles.css']}">{extra}
 <link rel="icon" href="/assets/img/brand/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="/assets/img/brand/mark-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="/assets/img/brand/apple-touch-icon.png">{ld}
@@ -240,7 +251,7 @@ def footer(scripts=""):
     </div>
   </div>
 </footer>
-<script src="/assets/app.js" defer></script>{scripts}
+<script src="/assets/app.js?v={V['app.js']}" defer></script>{scripts}
 </body>
 </html>"""
 
@@ -751,7 +762,7 @@ def page_about():
 def page_tea():
     leaflet = ('\n<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">')
     scripts = ('\n<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>'
-               '\n<script src="/assets/tea-map.js" defer></script>')
+               f'\n<script src="/assets/tea-map.js?v={V["tea-map.js"]}" defer></script>')
     rules = [("High Unemployment", "The project tract, alone or combined with any or all directly adjacent tracts, has a weighted average unemployment rate of at least 150% of the national average."),
              ("Rural", "Outside a metropolitan statistical area and outside the boundary of any city or town with a population of 20,000 or more, based on the most recent decennial census."),
              ("Infrastructure", "A qualifying infrastructure project receives the reduced investment amount regardless of location. This tool does not test infrastructure status.")]
