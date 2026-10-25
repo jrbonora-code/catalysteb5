@@ -186,6 +186,34 @@
    "source": "pexels-jayson-gomes-1455414-4705378.jpg"
   }
  },
+ "team": {
+  "joseph-bonora": {
+   "widths": [
+    400,
+    480,
+    640
+   ],
+   "fallback": 640,
+   "source": "team/joseph-bonora.jpg"
+  },
+  "justin-blackhall": {
+   "widths": [
+    400,
+    480
+   ],
+   "fallback": 480,
+   "source": "team/justin-blackhall.jpg"
+  },
+  "reid-jaeger": {
+   "widths": [
+    400,
+    480,
+    640
+   ],
+   "fallback": 640,
+   "source": "team/reid-jaeger.jpg"
+  }
+ },
  "loans": {
   "boutique-hotel-richland": {
    "widths": [
@@ -298,29 +326,6 @@
    ],
    "fallback": 562,
    "source": "deck/towneplace-indianapolis.jpg"
-  }
- },
- "team": {
-  "joseph-bonora": {
-   "widths": [
-    222
-   ],
-   "fallback": 222,
-   "source": "deck/joseph-bonora.jpg"
-  },
-  "justin-blackhall": {
-   "widths": [
-    222
-   ],
-   "fallback": 222,
-   "source": "deck/justin-blackhall.jpg"
-  },
-  "reid-jaeger": {
-   "widths": [
-    222
-   ],
-   "fallback": 222,
-   "source": "deck/reid-jaeger.jpg"
   }
  }
 }

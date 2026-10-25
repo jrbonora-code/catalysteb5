@@ -47,6 +47,22 @@ PICKS = {
 # Deck thumbnails and portraits are already small, so they are emitted at
 # their native size only.
 DECK = os.path.join(SRC, "deck")
+TEAM = os.path.join(SRC, "team")
+
+
+def portrait_bw(im):
+    """Black and white with matched tone, so portraits shot in different light
+    read as a set: grayscale, clip 0.5% at each end, then pull the mean to a
+    common mid-tone."""
+    from PIL import ImageOps, ImageStat
+    g = ImageOps.autocontrast(ImageOps.grayscale(im), cutoff=0.5)
+    mean = ImageStat.Stat(g).mean[0] / 255
+    target = 0.47
+    if 0.02 < mean < 0.98:
+        import math
+        gamma = math.log(target) / math.log(mean)
+        g = g.point(lambda v: round(255 * (v / 255) ** gamma))
+    return g.convert("RGB")
 
 
 def crop(im, aspect, fx, fy):
@@ -91,6 +107,17 @@ def main():
             m = save_set(c, os.path.join(OUT, slug), role, widths)
             m["source"] = fname
             manifest[slug][role] = m
+
+    # Team portraits: black and white, levels matched, cropped to the 4:5 card.
+    for fname in sorted(os.listdir(TEAM)):
+        if not fname.lower().endswith((".jpg", ".jpeg", ".png")):
+            continue
+        slug = os.path.splitext(fname)[0]
+        im = Image.open(os.path.join(TEAM, fname)).convert("RGB")
+        im = portrait_bw(crop(im, (4, 5), .5, .42))
+        m = save_set(im, os.path.join(OUT, "team"), slug, [400, 480, 640])
+        m["source"] = f"team/{fname}"
+        manifest.setdefault("team", {})[slug] = m
 
     for fname in sorted(os.listdir(DECK)):
         if not fname.lower().endswith(".jpg"):
